@@ -1,0 +1,5 @@
+open 58.215.165.45
+user zmm
+123456
+put .\Debug\FatSoServer-Debug.exe
+bye

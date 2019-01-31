@@ -1,0 +1,6 @@
+enum ResultCode
+{
+	RESULT_VOID,
+	RESULT_HISCORE_ERROR,
+	RESULT_CharName_ERROR
+};

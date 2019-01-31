@@ -1,0 +1,8 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 2.8) #cmake min version reqired
+PROJECT(Server) #define project name
+MESSAGE(STATUS "Project: SERVER")
+MESSAGE(STATUS "Project Directory: ${PROJECT_SOURCE_DIR}")
+
+SET(CMAKE_BUILD_TYPE_DEBUG)
+
+ADD_SUBDIRECTORY(src)

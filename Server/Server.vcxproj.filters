@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{0eac4f33-1c4f-4911-baae-7895374f4c39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{4b8ea6c0-9d87-4fad-8101-f4fb6adc1b45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client">
+      <UniqueIdentifier>{c46c0929-690b-41bb-9932-a6ff30c010ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\protocol">
+      <UniqueIdentifier>{83ce6c34-763e-4dfc-b213-8ad8f78d6f29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\utils">
+      <UniqueIdentifier>{f6ad1f23-2997-462c-8cd4-fec358d8683c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\database">
+      <UniqueIdentifier>{140f78ef-7b4f-4bf6-9f06-923b10752931}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\base.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\debug_log.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\log_manager.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\log_wrap.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\ClientManager.h">
+      <Filter>src\client</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\ClientSocket.h">
+      <Filter>src\client</Filter>
+    </ClInclude>
+    <ClInclude Include="src\protocol\ByteArray.h">
+      <Filter>src\protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="src\protocol\Command.h">
+      <Filter>src\protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="src\protocol\Message.h">
+      <Filter>src\protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\timer.h">
+      <Filter>src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameConst.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Network\CircuitQueue.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Network\IoHandle.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Network\Network.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Network\RecvBuf.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Network\SendBuf.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Network\Session.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Network\HttpHeader.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\base64.h">
+      <Filter>src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\database\Database.h">
+      <Filter>src\database</Filter>
+    </ClInclude>
+    <ClInclude Include="src\database\Table.h">
+      <Filter>src\database</Filter>
+    </ClInclude>
+    <ClInclude Include="src\database\SQLRequest.h">
+      <Filter>src\database</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\date.h">
+      <Filter>src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\HttpClient.h">
+      <Filter>src\client</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\base.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\debug_log.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ThreadTest.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\ClientManager.cpp">
+      <Filter>src\client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\ClientSocket.cpp">
+      <Filter>src\client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\protocol\ByteArray.cpp">
+      <Filter>src\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\timer.cpp">
+      <Filter>src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Network\IoHandle.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Network\Network.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Network\Session.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Network\HttpHeader.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\base64.cpp">
+      <Filter>src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\database\Database.cpp">
+      <Filter>src\database</Filter>
+    </ClCompile>
+    <ClCompile Include="src\database\SQLRequest.cpp">
+      <Filter>src\database</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\date.cpp">
+      <Filter>src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\HttpClient.cpp">
+      <Filter>src\client</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
