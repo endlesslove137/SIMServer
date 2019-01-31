@@ -1,5 +1,4 @@
-﻿卷 Seagate Backup Plus Drive 的文件夹 PATH 列表
-卷序列号为 CEDD-4943
+﻿本文件夹为第三方库 请自己下载 文件内容如下
 E:.
 │  ReadMe.txt
 │  
